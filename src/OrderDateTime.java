@@ -13,5 +13,4 @@ public class OrderDateTime {
         LocalDateTime parsedDateTime = LocalDateTime.parse(dateTimeString, dateFormat);
         return ChronoUnit.MINUTES.between(parsedDateTime, currentDateTime);
     }
-
 }
