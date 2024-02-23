@@ -22,8 +22,8 @@ public class OrderImpl implements Order {
     }
 
     public static OrderImpl getBucketGoods() {
-        return bucketOfGoods;
-    } //принцип DRY: подход -> извлечение общей функциональности
+        return bucketOfGoods; //принцип DRY: подход -> извлечение общей функциональности
+    }
 
     @Override
     public void addProductToCustomerBucket(AbstractProduct product, int amount) {
