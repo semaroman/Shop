@@ -1,5 +1,11 @@
 import java.util.List;
 
+*/
+Принцип подстановки Барбары Лисков (Liskov Substitution Principle, LSP):
+Класс Clothing является подклассом AbstractProduct, и он может быть
+использован везде, где ожидается объект типа Product, не нарушая функциональности программы.
+ */
+
 public class Clothing extends AbstractProduct {
     private String material;
     private String size;
