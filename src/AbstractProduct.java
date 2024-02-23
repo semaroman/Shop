@@ -6,11 +6,7 @@ import java.util.Objects;
 Класс AbstractProduct отвечает только за определение базовых операций для товара.
 Классы, представляющие конкретные товары (Book, Clothing, Food), отвечают только
 за свою специфическую реализацию товара.
-
-Принцип подстановки Барбары Лисков (Liskov Substitution Principle, LSP):
-Классы Book, Clothing, Food являются подклассами AbstractProduct, и они могут быть
-использованы везде, где ожидается объект типа Product, не нарушая функциональности программы.
- */
+*/
 
 public abstract class AbstractProduct implements Product {
     private final String name;
