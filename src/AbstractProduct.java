@@ -11,6 +11,7 @@ import java.util.Objects;
 Классы Book, Clothing, Food являются подклассами AbstractProduct, и они могут быть
 использованы везде, где ожидается объект типа Product, не нарушая функциональности программы.
  */
+
 public abstract class AbstractProduct implements Product {
     private final String name;
     private final double price;
