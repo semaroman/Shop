@@ -10,6 +10,7 @@ import java.util.List;
 класс Order зависит от AbstractProduct, а не от конкретных классов товаров.
 Это позволяет гибко менять или добавлять новые типы товаров, не внося изменения в Order.
  */
+
 public class OrderImpl implements Order {
     private List<AbstractProduct> customerBucket = new ArrayList<>();
     private boolean isOrderPlaced;
