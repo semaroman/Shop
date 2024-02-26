@@ -1,5 +1,3 @@
-//принцип единственной ответственности (SRP): в данном классе мы работаем только со статусом заказа
-
 public class ProductStatusSystem {
     private final int thresholdValueTimeGoodsProcessing = 1; //принцип избегания магческих чисел
     private final int thresholdValueCollectedOrderTime = 3;
