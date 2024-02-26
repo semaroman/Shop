@@ -1,13 +1,6 @@
 import java.util.List;
 import java.util.Objects;
 
-/*
-Принцип единственной ответственности (Single Responsibility Principle, SRP):
-Класс AbstractProduct отвечает только за определение базовых операций для товара.
-Классы, представляющие конкретные товары (Book, Clothing, Food), отвечают только
-за свою специфическую реализацию товара.
-*/
-
 public abstract class AbstractProduct implements Product {
     private final String name;
     private final double price;
