@@ -1,5 +1,5 @@
 public class ProductStatusSystem {
-    private final int thresholdValueTimeGoodsProcessing = 1; //принцип избегания магческих чисел
+    private final int thresholdValueTimeGoodsProcessing = 1;
     private final int thresholdValueCollectedOrderTime = 3;
     private final int timeShippedOrder = 5;
 
