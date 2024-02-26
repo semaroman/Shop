@@ -1,16 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-/*
-Принцип открытости/закрытости (Open/Closed Principle, OCP):
-класс OrderImpl может быть расширен для добавления новых операций или функциональностей,
-связанных с заказами, без изменения существующего кода.
-
-Принцип инверсии зависимостей (Dependency Inversion Principle, DIP):
-класс OrderImpl зависит от AbstractProduct, а не от конкретных классов товаров.
-Это позволяет гибко менять или добавлять новые типы товаров, не внося изменения в OrderImpl.
- */
-
 public class OrderImpl implements Order {
     private List<AbstractProduct> customerBucket = new ArrayList<>();
     private boolean isOrderPlaced;
