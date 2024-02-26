@@ -12,7 +12,7 @@ public class OrderImpl implements Order {
     }
 
     public static OrderImpl getBucketGoods() {
-        return bucketOfGoods; //принцип DRY: подход -> извлечение общей функциональности
+        return bucketOfGoods;
     }
 
     @Override
