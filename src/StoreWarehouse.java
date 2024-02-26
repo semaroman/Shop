@@ -4,7 +4,7 @@ import java.util.List;
 
 public class StoreWarehouse {
     public HashMap<String, AbstractProduct> getProductsMap() {
-        return productsMap; //принцип DRY: подход -> извлечение общей функциональности
+        return productsMap;
     } 
 
     private final HashMap<String, AbstractProduct> productsMap = initDefaultProductsMap();
