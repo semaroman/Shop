@@ -1,11 +1,5 @@
 import java.util.List;
 
-*/
-Принцип подстановки Барбары Лисков (Liskov Substitution Principle, LSP):
-Класс Book является подклассом AbstractProduct, и он может быть
-использован везде, где ожидается объект типа Product, не нарушая функциональности программы.
- */
-
 public class Book extends AbstractProduct {
 
     private String author;
